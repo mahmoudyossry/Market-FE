@@ -1,0 +1,254 @@
+.client-badge {
+    border-radius: var(--border-radius);
+    padding: .25em .5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: .3px;
+
+    &.status-1 {
+        background: #eee6b5;
+        color: #393d02;
+    }
+
+    &.status-2 {
+        background: #B3E5FC;
+        color: #23547B;
+    }
+    
+    &.status-3 {
+        background: #C8E6C9;
+        color: #256029;
+    }
+
+    &.status-4 {
+        background: #FFCDD2;
+        color: #C63737;
+    }
+
+    &.status-5 {
+        background: #d5a6ca;
+        color: #6b0652;
+    }
+
+}
+
+.salesrequest-badge {
+    border-radius: var(--border-radius);
+    padding: .25em .25rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: .2px;
+
+    &.status-1 {
+        background: #eee6b5;
+        color: #393d02;
+    }
+
+    &.status-2 {
+        background: #B3E5FC;
+        color: #23547B;
+    }
+    
+    &.status-3 {
+        background: #d5a6ca;
+        color: #6b0652;
+    }
+    
+    &.status-4 {
+        background: #C8E6C9;
+        color: #256029;
+    }
+    
+    &.status-5 {
+        background: #FFCDD2;
+        color: #C63737;
+    }
+    &.status-6 {
+            background: #ECCFFF;
+            color: #694382;
+    }
+    &.status-7 {
+        background: #FEEDAF;
+        color: #8A5340;
+    }
+}
+
+.product-badge {
+    border-radius: var(--border-radius);
+    padding: .25em .5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: .3px;
+
+    &.status-verefied {
+        background: #C8E6C9;
+        color: #256029;
+    }
+
+    &.status-loose {
+        background: #FFCDD2;
+        color: #C63737;
+    }
+
+    &.status-potential {
+        background: #FEEDAF;
+        color: #8A5340;
+    }
+}
+
+.customer-badge {
+    border-radius: var(--border-radius);
+    padding: .25em .5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: .3px;
+
+    &.status-qualified {
+        background: #C8E6C9;
+        color: #256029;
+    }
+
+    &.status-unqualified {
+        background: #FFCDD2;
+        color: #C63737;
+    }
+
+    &.status-negotiation {
+        background: #FEEDAF;
+        color: #8A5340;
+    }
+
+    &.status-new {
+        background: #B3E5FC;
+        color: #23547B;
+    }
+
+    &.status-renewal {
+        background: #ECCFFF;
+        color: #694382;
+    }
+
+    &.status-proposal {
+        background: #FFD8B2;
+        color: #805B36;
+    }
+}
+
+.order-badge {
+    border-radius: var(--border-radius);
+    padding: .25em .5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: .3px;
+
+    &.order-delivered {
+        background: #C8E6C9;
+        color: #256029;
+    }
+
+    &.order-cancelled {
+        background: #FFCDD2;
+        color: #C63737;
+    }
+
+    &.order-pending {
+        background: #FEEDAF;
+        color: #8A5340;
+    }
+
+    &.order-returned {
+        background: #ECCFFF;
+        color: #694382;
+    }
+}
+
+
+.voucher-badge{
+    border-radius: var(--border-radius);
+    padding: .25em .5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: .3px;
+
+    &.status-Approved  {
+        background: #C8E6C9;
+        color: #256029;
+    }
+
+    &.status-Pending  {
+        background: #B3E5FC;
+        color: #23547B;
+    } 
+    
+    &.status-Rejected{
+        background: #FFCDD2;
+        color: #C63737;
+    }&.status-posted{
+        background: #eee6b5;
+        color: #393d02;
+    }
+    
+
+
+
+}
+
+.p-inputtext{
+    font-size: 15px;
+}
+
+.statusType{
+    border-radius: var(--border-radius);
+    padding: .25em .5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: .3px;
+
+    &.status-Approved  {
+        background: #C8E6C9;
+        color: #256029;
+    }
+
+    &.status-pending  {
+        background: #B3E5FC;
+        color: #23547B;
+    } 
+    
+    &.status-Reject{
+        background: #FFCDD2;
+        color: #C63737;
+    }
+    &.status-Missing{
+        background: #FEEDAF;
+        color: #8A5340;
+    }
+
+
+}
+
+
+:host-context([dir='rtl']){
+    ::ng-deep  .p-buttonset .p-button:first-of-type {
+      border-top-left-radius: 0 !important;
+      border-bottom-left-radius: 0 !important;
+      border-top-right-radius: 6px !important;
+      border-bottom-right-radius: 6px !important;
+    }
+    ::ng-deep  .p-buttonset .p-button:last-of-type {
+      border-top-right-radius: 0 !important;
+      border-bottom-right-radius: 0 !important;
+      border-top-left-radius:6px !important;
+      border-bottom-left-radius:6px !important;
+      border-right:1px none !important
+    }
+   }
+  ::ng-deep .highcharts-data-labels{
+    display:none
+}

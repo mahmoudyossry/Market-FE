@@ -1,0 +1,17 @@
+{
+	"data": [
+		{
+			"type":"Company Registration",
+			"image": "a1.jpg",
+			"desc": ""
+
+		},
+		{
+			"type":"Tax Card",
+			"image": "a2.jpg",
+			"desc": ""
+
+		}
+		
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"data": [
+		{
+			"id": "1000",
+			"no": "f230fh0g3",
+			"salesman": "Ahmed Ibrahim",
+			"price": 65000
+		},
+		{
+			"id": "1000",
+			"no": "34hh32h",
+			"salesman": "Farag Saied",
+			"price": 50000
+		},
+		{
+			"id": "1000",
+			"no": "3445gh12",
+			"salesman": "Saleh Mutlq",
+			"price": 45000
+		},
+		{
+			"id": "1000",
+			"no": "101dd456",
+			"salesman": "Ali Mostafa",
+			"price": 35000
+		}
+	]
+}
